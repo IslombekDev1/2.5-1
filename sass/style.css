@@ -1,0 +1,215 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto;
+  text-decoration: none;
+  list-style: none;
+}
+
+h2 {
+  margin: 30px 110px;
+  font-size: 28px;
+  line-height: 100%;
+}
+
+.container {
+  padding: 0 110px;
+}
+.container .menu {
+  display: grid;
+  grid-template-columns: 370px 370px 370px;
+  grid-template-rows: 74px;
+  align-items: center;
+}
+.container .menu .box {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  border-radius: 7px;
+  padding: 0 40px 30px 0;
+}
+.container .menu .box img {
+  box-shadow: 0px 0px 7px 7px #F3F3F3;
+  background-color: #F3F3F3;
+}
+.container .menu .box p {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 100%;
+}
+
+.Хиты {
+  margin: 29px 0 30px;
+}
+
+.flex-box {
+  display: flex;
+  gap: 31px;
+}
+.flex-box .border-box {
+  width: 271.88px;
+  border: 1px solid #E1F0FE;
+  border-radius: 10px;
+}
+.flex-box .border-box .box2 {
+  width: 270px;
+  position: relative;
+  padding: 20px 15px 15px 18px;
+  border-radius: 10px 10px 0 0;
+  background: #c4c4c4;
+}
+.flex-box .border-box .box2::before {
+  content: "";
+  width: 382px;
+  height: 1px;
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  left: -56px;
+  rotate: 45.4deg;
+}
+.flex-box .border-box .box2::after {
+  content: "";
+  width: 382px;
+  height: 1px;
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  left: -56px;
+  rotate: -45.4deg;
+}
+.flex-box .border-box .box2 p {
+  width: 104px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 100%;
+  color: #fff;
+  background-color: #25a1d3;
+  border-radius: 5px;
+  padding: 5px 0;
+  margin-bottom: 11px;
+  position: relative;
+}
+.flex-box .border-box .box2 .sertsa {
+  width: 36px;
+  height: 36px;
+  position: absolute;
+  top: 20px;
+  left: 219px;
+  z-index: 1;
+  font-size: 20px;
+  color: white;
+  padding: 8.5px 8px;
+  border-radius: 5px;
+  background: #25A1D3;
+}
+.flex-box .border-box .box2 .sertsa:hover {
+  color: red;
+  cursor: progress;
+}
+.flex-box .border-box .box2 svg {
+  width: 36px;
+  height: 36px;
+  position: absolute;
+  top: 66px;
+  left: 219px;
+  padding: 4px;
+  border-radius: 5px;
+  background: #fff;
+}
+.flex-box .border-box .box2 svg:hover {
+  cursor: pointer;
+}
+.flex-box .border-box .box2 img {
+  position: relative;
+  left: 18px;
+  z-index: 1;
+}
+.flex-box .border-box .box2 .arrow {
+  position: absolute;
+  top: 205px;
+  left: 242.42px;
+  font-size: 19px;
+  padding: 19px 20px;
+  color: #25A1D3;
+  border-radius: 50%;
+  background: #fff;
+}
+.flex-box .border-box .box2 .arrow:hover {
+  cursor: pointer;
+  background: #fff8f8;
+}
+.flex-box .border-box .box2-1 {
+  padding: 17px 25px 20px 20px;
+}
+.flex-box .border-box .box2-1 .info {
+  width: 212px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 130%;
+  margin-bottom: 12px;
+}
+.flex-box .border-box .box2-1 ul {
+  display: flex;
+  margin-bottom: 34px;
+}
+.flex-box .border-box .box2-1 ul li i {
+  color: #E98F10;
+  margin-right: 8.33px;
+}
+.flex-box .border-box .box2-1 ul .item1 {
+  font-size: 14px;
+  line-height: 100%;
+  color: #E98F10;
+  margin-right: 29px;
+}
+.flex-box .border-box .box2-1 ul .item2 {
+  font-size: 14px;
+  line-height: 100%;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #181818;
+}
+.flex-box .border-box .price {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 100%;
+  margin-bottom: 16px;
+}
+.flex-box .border-box .btn1 {
+  width: 230px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 100%;
+  text-align: center;
+  color: #FFF;
+  padding: 17px 38px;
+  border: none;
+  border-radius: 62px;
+  background: #25A1D3;
+  cursor: pointer;
+  margin-bottom: 12px;
+}
+.flex-box .border-box .btn1:hover {
+  color: black;
+  background: #E1F0FE;
+}
+.flex-box .border-box .btn2 {
+  width: 230px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 100%;
+  padding: 16px 38px;
+  color: #25A1D3;
+  cursor: pointer;
+  border: 1px solid #25A1D3;
+  border-radius: 62px;
+  background: #FFF;
+}
+.flex-box .border-box .btn2:hover {
+  color: #fff;
+  background: #25A1D3;
+}/*# sourceMappingURL=style.css.map */
